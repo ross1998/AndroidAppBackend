@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS Profiles;
+
+CREATE TABLE Profiles
+(
+    Fname VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) PRIMARY KEY,
+    Height VARCHAR(255) NOT  NULL,
+    BodyWeight VARCHAR(255) NOT NULL,
+    Gender VARCHAR(255) NOT NULL,
+    Age INTEGER NOT NULL,
+    Pword VARCHAR(255) NOT NULL,
+    SALT VARCHAR(255),
+    Verification INT DEFAULT 0
+);

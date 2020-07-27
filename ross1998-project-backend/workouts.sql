@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Workouts;
+
+CREATE TABLE Workouts
+(
+    EName VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL
+);
